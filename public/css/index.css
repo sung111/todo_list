@@ -1,0 +1,46 @@
+.warrap {
+    text-align: center;
+}
+
+.searchBox {
+    display: flex;
+    justify-content: center;
+}
+
+.textarea-wrapper {
+    /* height: 100px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.centered-textarea {
+    width: 300px;
+    margin: 0 10px;
+    /* 원하는 높이 */
+    height: 30px;
+    /* 줄 간격 = 높이 (세로 중앙 정렬 핵심!) */
+    line-height: 30px;
+    /* 좌우 여백만 줌 */
+    padding: 0 10px;
+
+    resize: none;
+    border: 1px solid #007BFF;
+    border-radius: 8px;
+    font-size: 14px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.searchSelect{
+    display: flex;
+    align-items: center;
+}
+.searchSelect > select{
+    border-radius: 8px;
+    height: 30px;
+}
+.themeChange{
+    display: flex;
+    align-items: center;
+    margin: 0 15px;
+}
